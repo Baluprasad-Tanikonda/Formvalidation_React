@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+   display: flex;
+   justify-content: center;
+   
+}
+.col > input{
+    height: 25px;
+}
+.warning{
+    margin-top: -5px;
+}
+.img > img{
+    width: 100%;
+    height: 100vh;
+}
+
+.container > form > h1 , label{
+    color: white;
+}
+
+.warning{
+    color: rgb(255, 0, 0);
+}
+
+form{
+    background: rgba(0, 0, 0, 0.491);
+    width: 20%;
+    height: 500px;
+    padding: 20px;
+    position: absolute;
+    top: 100px;  
+    border-radius: 20px;
+}
+
+.btn > button{
+    width: 100px;
+    color: white;
+    background:rgb(22, 99, 186);
+    height: 40px;
+    border-radius: 15px;
+}
+
+.btn{
+    box-shadow: 20px;
+    width: 100%;
+}
+.register-link{
+    color: white;
+}
+.link {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    cursor: pointer;
+}
+.register-link{
+    color: white;
+}
+.link:hover {
+    color: darkblue;
+}
+
+@media (max-width: 768px) {
+    form {
+        width: 80%;
+        padding: 15px;
+    }
+
+    .btn > button {
+        height: 35px;
+    }
+
+    .col > input {
+        height: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    form {
+        width: 90%;
+        padding: 10px;
+    }
+
+    .btn > button {
+        height: 30px;
+    }
+
+    .col > input {
+        height: 20px;
+    }
+
+    .container > form > h1 {
+        font-size: 1.5rem;
+    }
+}
